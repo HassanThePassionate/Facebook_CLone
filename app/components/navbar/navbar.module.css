@@ -1,0 +1,74 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  padding: 0 16px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.search_bar {
+  display: flex;
+  align-items: center;
+  background-color: #f0f2f5;
+  padding: 7px 8px 9px;
+  border-radius: 50px;
+  gap: 10px;
+}
+.input {
+  background: transparent;
+  outline: none;
+}
+.nav_icons {
+  display: flex;
+  align-items: center;
+}
+.list_icons:first-child {
+  border-bottom: 4px solid #0866ff;
+}
+
+.list_icons {
+  margin-left: 8px;
+  padding-bottom: 3px;
+  padding-top: 3px;
+}
+.list_icons a {
+  height: 56px;
+  max-width: 129.6px;
+  width: 129.6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+.list_icons a:hover {
+  background-color: #f0f2f5;
+}
+#active:hover {
+  background-color: transparent;
+}
+.list_icons svg {
+  color: #65676b;
+}
+.right .right_nav_icons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.right_nav_icons a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 40px;
+  background-color: #d8dadf;
+  border-radius: 50%;
+}
+.right_nav_icons a:hover {
+  background-color: #898e9988;
+}
